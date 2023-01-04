@@ -284,13 +284,22 @@ body {
 } */
 
 .text {
-   font-size: 1.5625rem;
-   font-weight: 500;
+   /* font-size: 1.5625rem;
+   font-weight: 500; */
    color: #1d1d1d;
    background: lightblue;
    /* margin: .75rem; */
-   padding: 12px 90px;
+   padding: 12px 12px 12px 90px;
    height: 100vh;
+}
+
+.text h2 {
+   margin-bottom: .25rem;
+}
+
+.text p {
+   margin-bottom: 1rem;
+   padding: 0 20px 0 8px;
 }
 
 /* .sidebar.active ~ .home_content {
